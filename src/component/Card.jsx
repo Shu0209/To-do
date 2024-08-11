@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import EditTask from "./EditTask.jsx"
+import EditTask from "../Modals/EditTask"
 
 const Card = ({ taskName, taskDesc, index ,deleteTask , updateListArray}) => {
 

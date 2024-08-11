@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import CreateTask from "./CreateTask.jsx"
+import CreateTask from "../Modals/CreateTask.jsx"
 import Card from "./Card.jsx"
 import { stringify } from "postcss"
 

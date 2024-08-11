@@ -33,7 +33,7 @@ const handleCreate=()=>{
                     <textarea name="description" id="" rows="4" cols="40" className="border-[1px]"  value={description} onChange={handelChange}></textarea>
                     <div className="">
                         <button onClick={handleCreate} className="bg-violet-600 m-1 p-2 rounded-2xl text-white font-bold" >Create</button>
-                        <button onClick={onClose} className="bg-violet-600 m-1 p-2 rounded-2xl text-white font-bold">Cancel</button>
+                        <button onClick={onClose} className="bg-white m-1 p-2 rounded-2xl text-gray-700 font-bold">Cancel</button>
                     </div>
                 </div>
             </div>

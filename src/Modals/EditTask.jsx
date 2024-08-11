@@ -33,16 +33,16 @@ const handleUpdate=(e)=>{
     return (
         <>
             <div className=" w-[100vw] h-[100%] backdrop-blur-lg p-2 m-2 absolute top-0 left-0 ">
-                <div className=" bg-gray-500 m-1 p-1 top-4 rounded-2xl absolute left-[50%] translate-x-[-50%] " >
-                    <button onClick={onClose} className="text-white absolute right-5 font-bold text-xl" >X</button>
+                <div className=" bg-white w-[80%] m-1 p-1 top-4 rounded-2xl absolute left-[50%] translate-x-[-50%] " >
+                    <button onClick={onClose} className="text-red-700 absolute right-5 font-bold text-xl" >X</button>
                     <h1 className="font-bold font-serif p-2 m-2 text-center">Update Task</h1>
-                    <h3>Task:</h3>
-                    <input name="taskName" type="text" className="border-[1px] " value={taskName} onChange={handelChange}/>
-                    <h3>Discription</h3>
-                    <textarea name="description" id="" rows="4" cols="40" className="border-[1px] w-[100%]"  value={description} onChange={handelChange}></textarea>
+                    <h3 className="p-1 m-1">Task:</h3>
+                    <input  name="taskName" type="text" className="p-1 m-1 border-[1px] border-black " value={taskName} onChange={handelChange}/>
+                    <h3 className="p-1 m-1">Discription</h3>
+                    <textarea name="description" id="" rows="4" cols="40" className="p-1 m-1 border-[1px] border-black w-[100%]"  value={description} onChange={handelChange}></textarea>
                     <div className="">
                         <button onClick={handleUpdate} className="bg-violet-600 m-1 p-2 rounded-2xl text-white font-bold" >Update</button>
-                        <button onClick={onClose} className="bg-violet-600 m-1 p-2 rounded-2xl text-white font-bold">Cancel</button>
+                        <button onClick={onClose} className="bg-gray-500  m-1 p-2 rounded-2xl text-white font-bold">Cancel</button>
                     </div>
                 </div>
             </div>
